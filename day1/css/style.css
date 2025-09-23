@@ -1,0 +1,20 @@
+ h1{
+            color: green;
+        }
+        h2{
+            font-family: "궁서";
+            color: #000fff;
+        }
+        span{
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+        }
+    /*텍스트에 줄을 표시하거나 없애는*/
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: #000000;
+         text-decoration: underline;
+
+        }
