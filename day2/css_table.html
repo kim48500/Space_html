@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 관련 스타일</title>
+    <style>
+        table{
+            border: 1px solid;
+            width: 300px;
+            height: 100px;
+            text-align: center;
+        }
+        td{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>셀합치기(열병합)</caption>
+        <tr>
+          <td>1행 1열</td>
+          <td>1행 2열</td>
+           <td>1행 3열</td>
+        </tr>
+        <tr>
+          <td colspan="3">2행 1열</td> 
+        
+        </tr>
+    </table>
+    <!--행row결합 병합 rowspan-->
+    <table>
+        <caption>셀합치기(열병합)</caption>
+        <tr>
+          <td>1행 1열</td>
+          <td>1행 2열</td>
+           <td rowspan="2">비교</td>
+        </tr>
+         
+        <br>
+        <br>
+        <tr>
+          <td>2행 1열</td>
+          <td>2행 2열</td>
+           
+        
+        </tr>
+    </table>
+    
+</body>
+</html>
