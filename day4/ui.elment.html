@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상선택자 -;콜론을 붙인 속성</title>
+    <style>
+        form{width: 500px;}
+        input:disabled{
+            background-color: #ddd;
+            border: 1px solid #ddd;
+        }
+        input:checked + span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form action=""method="post"></form>
+    <fieldset>
+        <legend>사용자정보</legend>
+        <label for="unmae">이름</label>
+        <input type="text" name="uname" disabled>
+        
+    </fieldset>
+    <fieldset>
+        <legend>신청과목</legend>
+        <p>이달에 신청할 과목을 선택하세여</p>
+        <label for="subject">
+           <label>
+             <input type="radio" name="subject" value="speaking"><span>회화</span>
+           </label>
+            <label>
+                <input type="radio" name="subject" value="gramer"><span>문법</span> 
+            </label>
+           <label> 
+            <input type="radio" name="subject" value="writing"><span>작문</span>
+        </label>
+        </label>
+    </fieldset>
+    
+</body>
+</html>

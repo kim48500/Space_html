@@ -1,0 +1,48 @@
+/*모바일기준@media생략*/
+*{
+    margin: 0; padding: 0;
+}
+#container{
+    width: 100%;/*가변길이*/
+    background-color: red;
+
+}
+header{
+    height: 100px; color: #fff; padding: 10px;
+}
+section{
+    height: 500px; color: #fff; padding: 10px;
+}
+footer{
+    height: 100px; color: #fff; padding: 10px;
+}
+/*x태블릿기준*/ 
+@media screen and (min-width:780px) {
+    #container{
+    width: 780px;
+    margin: 0 auto;
+    background-color: gold;
+
+}
+h1{
+    height: 100px; color: silver; padding: 10px;
+
+    
+    
+}
+/*pc기준1024*/ 
+@media screen and (min-width:1024px) {
+    #container{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: blue;
+
+}
+h1{
+    height: 100px; color: gold; padding: 10px;
+
+    
+    
+}
+}
+}
